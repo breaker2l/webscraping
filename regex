@@ -1,0 +1,17 @@
+#Regular Expressions
+
+Write the letter "a" at least once aa*
+Append to this the letter "b" exactly five times  bbbbb
+Append to this the letter "c" any even number of times  (cc)*
+Write either the letter "d" or "e" at the end (d|e)
+
+#commonly used regular expression symbols
+Symbol>Meaning >Example Example MAtches
+* > Matches the preceding character,subexpression,or bracketed character,0 or more times>a*b*
++ > Matches the preceding character,subexpression,or bracketed character,1 or more times>a+b+
+
+
+#identifying email addresses
+[A-Za-b0-9\._+]+@[A-Za-z]+\.(com|org|edu|net)
+Rule 1
+The first part of an email address contains at least one of the 
